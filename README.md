@@ -13,10 +13,10 @@ Wenn jemand das Template an neue Anforderungen angepasst hat, oder weitere Featu
 Die automatische Installation erfolgt via GNU "make". Die einfache Installation erfolgt durch aufrufen von ```make```. Die targets "install" und "update" installieren, bzw. aktualisieren das template (```make install``` und ```make update```). Mit ```make uninstall``` kann das template wieder entfernt werden.
 
 ## Verwendung
-Vom Template werden Varianten bereitgestellt für Seminararbeiten und Abschlussarbeiten. Diese unterscheiden sich hauptsächlich in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
+Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich hauptsächlich in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
 
 Ein LaTeX Dokument für eine Seminararbeit muss also lediglich die Klasse ```mi-seminar``` verwenden:    
     \documentclass{mi-seminar}
 
 Es können keine Parameter an die Dokumentklasse übergeben werden, da diese durch die Vorlage vorgegeben sind.    
-Für nähere Informationen zur Verwendung liegt ein Beispieldokument  ```document.tex``` bei. 
+Für nähere Informationen zur Verwendung liegt ein Beispieldokument  ```document.tex``` bei.
