@@ -1,6 +1,6 @@
-# XeLaTeX Template für wissenschaftliche Arbeiten an der Universität Regensburg
+# LaTeX Template für wissenschaftliche Arbeiten an der Universität Regensburg
 
-Dieses XeLaTeX Template ist nach den Vorgaben aus diesen Quellen erstellt worden:    
+Dieses LaTeX Template ist nach den Vorgaben aus diesen Quellen erstellt worden:    
 - http://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/medien/materialien/formatvorlage_seminararbeit_iw_mi_110124_v12_final.dotx.zip    
 - http://www.uni-regensburg.de/sprache-literatur-kultur/romanistik/medien/leitfaden_schriftliche_arbeiten.pdf
 - https://github.com/UniRegensburg/mi-document-templates (Word Vorlage)
@@ -13,9 +13,9 @@ Wenn jemand das Template an neue Anforderungen angepasst hat, oder weitere Featu
 Die automatische Installation erfolgt via GNU "make". Die einfache Installation erfolgt durch aufrufen von ```make```. Die targets "install" und "update" installieren, bzw. aktualisieren das template (```make install``` und ```make update```). Mit ```make uninstall``` kann das template wieder entfernt werden.
 
 ## Verwendung
-Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich hauptsächlich in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
+Um das Dokument kompilieren zu können wird XeLaTeX benötigt. Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich hauptsächlich in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
 
-Ein XeLaTeX Dokument für eine Seminararbeit muss also lediglich die Klasse ```mi-seminar``` verwenden:    
+Ein LaTeX Dokument für eine Seminararbeit muss also lediglich die Klasse ```mi-seminar``` verwenden:    
     \documentclass{mi-seminar}
 
 Es können keine Parameter an die Dokumentklasse übergeben werden, da diese durch die Vorlage vorgegeben sind.    
