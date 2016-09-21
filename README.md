@@ -7,13 +7,13 @@ Dieses LaTeX Template ist nach den Vorgaben aus diesen Quellen erstellt worden:
 
 Dieses Template wird unregelmäßig aktualisiert und an die aktuelle Word-Vorlage angepasst. Vor der Verwendung sollte das Template mit der Word-Vorlage abgeglichen werden.
 
-Wenn jemand das Template an neue Anforderungen angepasst hat, oder weitere Features hinzufügen möchte, dann können diese Änderungen über Pull requests aufgenommen werden.
-
 ## Installation
 Die automatische Installation erfolgt via GNU "make". Die einfache Installation erfolgt durch aufrufen von ```make```. Die targets "install" und "update" installieren, bzw. aktualisieren das template (```make install``` und ```make update```). Mit ```make uninstall``` kann das template wieder entfernt werden.
 
+Die automatische Installation funktioniert nur unter Linux und macOS. Unter Windows funktioniert die automatische Installation im Moment nicht, weil ```kpsewhich -var-value=TEXMFHOME``` nichts zurückgibt. Als Workaround kann das Makefile mit dem entsprechenden Pfad manuell angepasst werden.
+
 ## Verwendung
-Um das Dokument kompilieren zu können wird XeLaTeX benötigt. Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich hauptsächlich in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
+Um das Dokument kompilieren zu können wird XeLaTeX benötigt. Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich nur in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
 
 Ein LaTeX Dokument für eine Seminararbeit muss also lediglich die Klasse ```mi-seminar``` verwenden:    
     \documentclass{mi-seminar}
