@@ -12,6 +12,8 @@ Die automatische Installation erfolgt via GNU "make". Die einfache Installation 
 
 Die automatische Installation funktioniert nur unter Linux und macOS. Unter Windows funktioniert die automatische Installation im Moment nicht, weil ```kpsewhich -var-value=TEXMFHOME``` nichts zurückgibt. Als Workaround kann das Makefile mit dem entsprechenden Pfad manuell angepasst werden.
 
+Standardmäßig sind die Schriftarten ```Palatino Linotype``` und ```Source Code Pro``` in Verwendung. Damit alles erfolgreich kompiliert werden kann müssen entweder diese Schriftarten installiert werden, oder andere verwendet werden. Um die Schriftarten auszutauschen müssen die entsprechenden Stellen in der ```mi-document.sty``` geändert werden.
+
 ## Verwendung
 Um das Dokument kompilieren zu können wird XeLaTeX benötigt. Vom Template wird für Seminararbeiten und Abschlussarbeiten jeweils eine Variante bereitgestellt. Diese unterscheiden sich nur in der Gestaltung der Titelseite. Für eine Seminararbeit wird die Dokumentklasse ```mi-seminar``` bereitgestellt. Für Abschlussarbeiten ```mi-graduation```.    
 
